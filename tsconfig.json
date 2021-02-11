@@ -10,6 +10,12 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "ngx-ps-components": [
+        "dist/ngx-ps-components/ngx-ps-components",
+        "dist/ngx-ps-components"
+      ]
+    },
     "target": "es2015",
     "module": "es2020",
     "lib": [
